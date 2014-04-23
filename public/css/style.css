@@ -1,20 +1,101 @@
 body {
-  background-color: #567891;
+  background-color: #295200;
   width: 500px;
+  background-image: url(#);
 }
 
 h1 {
-  color: white;
-  font-family: "Helvetica";
+  font-family: "Marker felt";
+  padding-top: 20px;
+  padding-bottom: none;
+  padding-left: 20px;
 }
 
 h3 {
-  color: white;
-  font-family: "Helvetica";
+  font-family: "Marker felt";
+  padding-top: none;
+  padding-bottom: ;
+  padding-right:;
+  padding-left: 20px;
 }
 
 .container {
-  width: 450px;
-  margin: 0 auto;
-  background-color: #CCB299;
+  width: 700px;
+  height: 1500px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-right: 350px;
+  margin-left: 350px;
+  background-color: #d6c2ad;
+}
+p{
+  font-family: "Helvetica";
+}
+.p1 {
+  padding-top: 20px;
+  padding-bottom: 5pxpx;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.p2 {
+  padding-top: none;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.p3{
+  padding-top: none;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.p4{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.p5{
+  padding-top: 20px;
+  padding-bottom: none;
+  padding-left: 40px;
+  padding-right: 5px;
+  font-family: "Marker felt";
+  font-size: 22px;
+}
+.p6{
+  padding-top: none;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  padding-left: 50px;
+}
+img{
+padding-left: 20px;
+}
+a{
+  text-decoration: none;
+  color: #7a5229;
+  font-size: 30px;
+  padding-top: none;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.a1:hover{
+  font-weight: bold;
+}
+.a2:hover{
+  font-weight: bold;
+}
+.a3:hover{
+font-weight: bold;
+}
+.a4:hover{
+font-weight: bold;
+}
+.a5:hover{
+font-weight: bold;
+}
+.a6:hover{
+font-weight: bold;
 }
