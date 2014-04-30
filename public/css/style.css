@@ -1,27 +1,28 @@
 body {
-  background-color: #295200;
+  background-color: #56391d;
   width: 500px;
   background-image: url(#);
 }
 
-h1 {
+.hd1 {
   font-family: "Marker felt";
   padding-top: 20px;
   padding-bottom: none;
-  padding-left: 20px;
+  padding-left: 2px;
 }
 
 h3 {
   font-family: "Marker felt";
   padding-top: none;
-  padding-bottom: ;
+  padding-bottom:;
   padding-right:;
   padding-left: 20px;
+  color: #336600;
 }
 
 .container {
   width: 700px;
-  height: 1500px;
+  height: 1400px;
   margin-top: 30px;
   margin-bottom: 40px;
   margin-right: 350px;
@@ -70,11 +71,13 @@ p{
   padding-left: 50px;
 }
 img{
-padding-left: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+    
 }
 a{
   text-decoration: none;
-  color: #7a5229;
+  color: #336600;
   font-size: 30px;
   padding-top: none;
   padding-bottom: 15px;
