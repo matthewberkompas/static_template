@@ -26,7 +26,7 @@ h3 {
 
 .container {
   width: 700px;
-  height: 1200px;
+  height: 900px;
   margin-top: 30px;
   margin: auto;
   background-color: #d6c2ad;
@@ -55,6 +55,7 @@ header {
 header .logo {
   float: left;
   color: tan;
+  font-family: Marker felt;
 }
 
 .header-container {
@@ -72,7 +73,7 @@ nav li a {
 }
 
 nav li a:hover {
-  font-weight: bold;
+  color: #56391d; 
 }
 
 p{
