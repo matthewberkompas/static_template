@@ -1,10 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #56391d;
-  width: 500px;
   background-image: url(#);
 }
 
-.hd1 {
+.name {
   font-family: "Marker felt";
   padding-top: 20px;
   padding-bottom: none;
@@ -13,7 +17,7 @@ body {
 
 h3 {
   font-family: "Marker felt";
-  padding-top: none;
+  padding-top: 20px;
   padding-bottom:;
   padding-right:;
   padding-left: 20px;
@@ -22,26 +26,55 @@ h3 {
 
 .container {
   width: 700px;
-  height: 1600px;
+  height: 1200px;
   margin-top: 30px;
-  margin-bottom: 40px;
-  margin-right: 350px;
-  margin-left: 350px;
+  margin: auto;
   background-color: #d6c2ad;
   border-radius: 5px;
 }
+.navbar{
+  color: black;
+  height: 20px;
+  width: 500px;
+}
+
 #lists a{
   font-family: "Helvetica";
   font-size: 20px;
 }
-ul.nav li{
-  display: inline-block;
-  /*width: 100px;*/
-  text-align: center;
+
+header {
+  display: block;
+  height: 50px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  background-color: #336600;
+  clear: both;
 }
-ul.nav li a:hover{
+
+header .logo {
+  float: left;
+  color: tan;
+}
+
+.header-container {
+  width: 1024px;
+  margin: auto;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+}
+
+nav li a {
+  color: tan;
+}
+
+nav li a:hover {
   font-weight: bold;
 }
+
 p{
   font-family: "Helvetica";
 }
@@ -96,22 +129,4 @@ a{
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 5px;
-}
-.a1:hover{
-  font-weight: bold;
-}
-.a2:hover{
-  font-weight: bold;
-}
-.a3:hover{
-font-weight: bold;
-}
-.a4:hover{
-font-weight: bold;
-}
-.a5:hover{
-font-weight: bold;
-}
-.a6:hover{
-font-weight: bold;
 }
